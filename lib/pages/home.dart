@@ -87,9 +87,9 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green.shade100,
+      // backgroundColor: Colors.green.shade100,
       appBar: AppBar(
-        backgroundColor: Colors.green.shade300,
+        // backgroundColor: Colors.green.shade300,
         title: const Text("TO DO List"),
         elevation: 0,
         centerTitle: true,
@@ -106,14 +106,15 @@ class _HomePageState extends State<HomePage> {
         },
       ),
       floatingActionButton: FloatingActionButton.extended(
-          backgroundColor: Colors.green.shade500,
+          icon: const Icon(Icons.add),
+          // backgroundColor: Colors.green.shade500,
           onPressed: () {
             createNewTask();
           },
           label: const Text(
             "Add new Task",
             style: TextStyle(
-                fontWeight: FontWeight.bold, fontSize: 15, color: Colors.white),
+                fontWeight: FontWeight.bold, fontSize: 18, color: Colors.white),
           )),
     );
   }
