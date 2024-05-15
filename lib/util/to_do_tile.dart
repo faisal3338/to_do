@@ -43,8 +43,8 @@ class ToDoTile extends StatelessWidget {
                         // Color.fromARGB(255, 242, 41, 83),
                       ]
                     : [
-                        Color.fromARGB(255, 227, 167, 199),
-                        Color.fromARGB(255, 255, 252, 220),
+                        Color.fromARGB(255, 80, 141, 246),
+                        Color.fromARGB(255, 89, 186, 106),
                         // Color.fromARGB(255, 236, 56, 118),
                         // Color.fromARGB(255, 253, 239, 249),
                       ]),

@@ -22,7 +22,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'TO Do List',
-      theme: AppTheme().darkMode,
+      theme: ThemeData(),
+      darkTheme: ThemeData.dark(), // standard dark theme
+      themeMode: ThemeMode.system, // device controls theme
       home: const HomePage(),
     );
   }

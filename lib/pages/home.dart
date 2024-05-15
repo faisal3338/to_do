@@ -113,8 +113,8 @@ class _HomePageState extends State<HomePage> {
           },
           label: const Text(
             "Add new Task",
-            style: TextStyle(
-                fontWeight: FontWeight.bold, fontSize: 18, color: Colors.white),
+            // style: TextStyle(
+            //     fontWeight: FontWeight.bold, fontSize: 18, color: Colors.white),
           )),
     );
   }
